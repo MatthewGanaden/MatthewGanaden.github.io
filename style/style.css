@@ -4,7 +4,14 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #D9D9D9;
+    background-color: #f3f3f1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 header {
@@ -32,21 +39,22 @@ nav ul li a {
     margin: 3em;
 }
 
-main {
-    padding: 20px;
-}
-
-div {
-    text-align:center;
-}
-
 h1 {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     font-size: 40px;
     color: #333333;
     text-decoration: none;
-    margin: 0;
+    margin-top: 3%;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #333333;
+    text-decoration: none;
+    
 }
 
 h3 {
@@ -56,6 +64,55 @@ h3 {
     color: #333333;
     text-decoration: none;
     margin: 0;
+}
+
+h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #333333;
+    text-decoration: none;
+    margin: 0;
+}
+
+.face {
+    margin: 5%;
+    width: 20%;
+}
+
+.about {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.content {
+    margin-left: 32%;
+    margin-right: 32%;
+    /*margin-top: 100px;*/
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tech {
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #333333;
+    background-color: #D9D9D9;
+    border-radius: 5px;
 }
 
 footer {
