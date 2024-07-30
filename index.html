@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matthew Ganaden</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="script/projects.js"></script> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -65,6 +66,10 @@
                                 <img src="style\img\Premiere Pro.png" class="tools">
                                 <figcaption>Premiere Pro</figcaption>
                             </figure>
+                            <figure class="image-with-description">
+                                <img src="style\img\Premiere Pro.png" class="tools">
+                                <figcaption>Canva</figcaption>
+                            </figure>
                         </div>
                     </div>
                 </div>
@@ -100,6 +105,10 @@
                                 <figcaption>Vue</figcaption>
                             </figure>
                             <figure class="image-with-description">
+                                <img src="style\img\Arduino.png" class="tools">
+                                <figcaption>MySQL</figcaption>
+                            </figure>
+                            <figure class="image-with-description">
                                 <img src="style\img\Firebase.png" class="tools">
                                 <figcaption>Firebase</figcaption>
                             </figure>
@@ -121,52 +130,44 @@
                             </figure>
                             <figure class="image-with-description">
                                 <img src="style\img\Arduino.png" class="tools">
-                                <figcaption>Arduino</figcaption>
+                                <figcaption>PHP</figcaption>
                             </figure>
                         </div>                        
                     </div>
+                </div>
                 <div class="skill">
                     <div>
                         <img src="style\img\Design.png" class="box">
-                        <h3>Design</h3>
-                        <h4>I have various design skills such as web design, video editing, motion graphics and photo manipulation</h4>
+                        <h3>Testing and Arduino</h3>
+                        <h4>I have experience in both manual and automated testing. I have also worked on arduinos for our project in the university</h4>
                         <h5>Design Tools:</h5>
                         <div>
                             <figure class="image-with-description">
-                                <img src="style\img\Figma.png" class="tools">
-                                <figcaption>Figma</figcaption>
+                                <img src="style\img\Arduino.png" class="tools">
+                                <figcaption>Arduino</figcaption>
                             </figure>
                             <figure class="image-with-description">
-                                <img src="style\img\Photoshop.png" class="tools">
-                                <figcaption>Photoshop</figcaption>
-                            </figure>
-                            <figure class="image-with-description">
-                                <img src="style\img\After Effects.png" class="tools">
-                                <figcaption>After Effects</figcaption>
-                            </figure>
-                            <figure class="image-with-description">
-                                <img src="style\img\Premiere Pro.png" class="tools">
-                                <figcaption>Premiere Pro</figcaption>
+                                <img src="style\img\Arduino.png" class="tools">
+                                <figcaption>Selenium</figcaption>
                             </figure>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
 
         <br>
         <section class="my-projects">
             <div class="content">
                 <h1>Projects</h1>
-                <h2>I am a developer willing to challenge myself and to put my skills into use to provide satisfaction to clients. I always do my best to improve not only my skills but also myself.</h2>
+                <h2>These are some of the projects I have been working on</h2>
                 <div class="projects">
-                    <button>Design</button>
-                    <button>Web Development</button>
-                    <button>Others</button>
+                    <button type="button" onclick="displayDesign()">Design</button>
+                    <button type="button" onclick="displayWebDev()">Web Development</button>
+                    <button type="button" onclick="displayTesting()">Others</button>
                 </div>
                 <div>
-                    <h3></h3>
-                    <h4>Other than web development and design, I have</h4>
+                    <h3 id="title">Testing and Arduino</h3>
+                    <h4 id="description">I have used my knowledge in selenium to create a custom facebook scraper for our thesis. I have also</h4>
                 </div>
             </div>
         </section>
