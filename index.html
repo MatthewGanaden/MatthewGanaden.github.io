@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="displayDesign()">
     <header>
         <nav>
             <ul>
@@ -30,12 +30,12 @@
          </section>
          
          <section class="about">
-            <div class="content">
+            <div>
                 <br>
                 <h1>About Me</h1>
                 <h2>I am a developer willing to challenge myself and to put my skills into use to provide satisfaction to clients. I always do my best to improve not only my skills but also myself.</h2>
                 <br>
-                <hr class="divide">
+                <hr>
             </div>
         </section>
 
@@ -73,6 +73,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="skill">
                     <div>
                         <img src="style\img\Code.png" class="box">
@@ -135,6 +136,7 @@
                         </div>                        
                     </div>
                 </div>
+                
                 <div class="skill">
                     <div>
                         <img src="style\img\Design.png" class="box">
@@ -157,17 +159,25 @@
 
         <br>
         <section class="my-projects">
-            <div class="content">
+            <div>
                 <h1>Projects</h1>
                 <h2>These are some of the projects I have been working on</h2>
                 <div class="projects">
-                    <button type="button" onclick="displayDesign()">Design</button>
-                    <button type="button" onclick="displayWebDev()">Web Development</button>
-                    <button type="button" onclick="displayTesting()">Others</button>
+                    <button type="button" onclick="displayDesign()" id="design">Design</button>
+                    <button type="button" onclick="displayWebDev()" id="webDev">Web Development</button>
+                    <button type="button" onclick="displayTesting()" id="others">Others</button>
                 </div>
-                <div>
-                    <h3 id="title">Testing and Arduino</h3>
-                    <h4 id="description">I have used my knowledge in selenium to create a custom facebook scraper for our thesis. I have also</h4>
+                <div class="showcase">
+                    <div class="content">
+                        <h3 id="title"></h3>
+                        <h4 id="description"></h4>
+                        <div class="video-mask">
+                            <video autoplay muted loop>
+                                <source src="style/vid/design.mp4" id="videoSrc">
+                            </video>
+                        </div>
+                    </div>
+                    <a href="#" target="_blank">See my portfolio</a>
                 </div>
             </div>
         </section>
