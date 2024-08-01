@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body onload="displayDesign()">
+<body onload="displayProject('design')">
     <header>
         <nav>
             <ul>
@@ -24,7 +24,7 @@
 
     <main>
          <section class="hero">
-            <h1>Full Stack Developer</h1>
+            <h1>Web Developer</h1>
             <h3>I like to design and create simple websites</h3>
             <img src="style\img\Face.png" class="face">
          </section>
@@ -163,9 +163,9 @@
                 <h1>Projects</h1>
                 <h2>These are some of the projects I have been working on</h2>
                 <div class="projects">
-                    <button type="button" onclick="displayDesign()" id="design">Design</button>
-                    <button type="button" onclick="displayWebDev()" id="webDev">Web Development</button>
-                    <button type="button" onclick="displayTesting()" id="others">Others</button>
+                    <button type="button" onclick="displayProject('design')" id="design">Design</button>
+                    <button type="button" onclick="displayProject('webDev')" id="webDev">Web Development</button>
+                    <button type="button" onclick="displayProject('others')" id="others">Others</button>
                 </div>
                 <div class="showcase">
                     <div class="content">
@@ -181,6 +181,7 @@
                 </div>
             </div>
         </section>
+        
 
          <section class="contact">
             <h2>Contact</h2>

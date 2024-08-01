@@ -204,6 +204,11 @@ button {
     text-decoration: none;
 }
 
+.showcase div h4 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 video {
     width:90%;
     display: block;
@@ -211,6 +216,10 @@ video {
     padding: 30px;
     border-radius: 10px; 
     overflow: hidden;
+}
+
+.contact {
+    text-align: center;
 }
 
 footer {
