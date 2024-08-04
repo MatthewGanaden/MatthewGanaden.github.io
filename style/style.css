@@ -222,6 +222,10 @@ footer .navigation a {
     padding: 1em;
 }
 
+.showcase_small_screen {
+    display: none;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .face {      
@@ -245,11 +249,37 @@ footer .navigation a {
         margin-top: -600px;
         text-align: center;
     }
+
+    .projects {
+        display: none;
+    }
+
+    .showcase {
+        display:none;
+    }
+
+    .showcase_small_screen {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 0 10em 0;
+    }
+
+    .project {
+        display: block;
+        min-width: 22em;
+        padding: 2em;
+        background-color: #ffffff;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 6px 6px 10px 5px rgba(0, 0, 0, 0.1);
+    }
 }
   
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .face {      
+@media only screen and (max-width: 767px) {
+    .face {
+        margin-top: 10%;
         width: 40%;
         align-items: center;
     }
@@ -270,12 +300,29 @@ footer .navigation a {
         text-align: center;
     }
 
+    .projects {
+        display: none;
+    }
+
     .showcase {
-        margin: auto;
-        margin-top: -20px;
-        width: 70%;
-        padding-top: 3em;
+        display:none;
+    }
+
+    .showcase_small_screen {
+        display: flex;
+        flex-wrap: wrap;
+    
+        gap: 30px;
+        padding: 0 10em 0;
+    }
+
+    .project {
+        display: block;
+        min-width: 22em;
+        padding: 2em;
+        background-color: #ffffff;
         border-radius: 10px;
+        text-align: center;
         box-shadow: 6px 6px 10px 5px rgba(0, 0, 0, 0.1);
     }
 }
@@ -304,30 +351,21 @@ footer .navigation a {
         text-align: center;
     } 
 
-    .showcase {
-        margin: auto;
-        margin-top: -20px;
-        width: 50%;
-        padding-top: 3em;
-        border-radius: 10px;
-        box-shadow: 6px 6px 10px 5px rgba(0, 0, 0, 0.1);
-    }
-
     button {
         background: none;
         border: none;
-        padding: 15px 40px 30px;
+        padding: 15px 30px 30px;
         font: inherit;
         font-size: 1.125em;
         color: #333333;
         cursor: pointer;
         border-radius: 10px;
-    }
+    } 
 
     .showcase {
         margin: auto;
         margin-top: -20px;
-        width: 80%;
+        width: 70%;
         padding-top: 3em;
         border-radius: 10px;
         box-shadow: 6px 6px 10px 5px rgba(0, 0, 0, 0.1);
