@@ -8,8 +8,6 @@
 body {
     font-family: "Inter", sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
     font-size: 100%;
     color: #333333;
     background-color: #f3f3f1;
@@ -72,6 +70,17 @@ nav ul li a {
 
 .hero {
     text-align: center;
+}
+
+.my-skills {
+    text-align: center;
+}
+
+.about {
+    background-color: #FAFAFA;
+    width: 100%;
+    text-align: center;
+    height: 850px;
 }
 
 .skills {
@@ -152,9 +161,7 @@ button {
     border-width: 1px;
     border-radius: 30px;
     margin-bottom: 30px;
-    padding: 10px;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 10px 16px 10px ;
     font: inherit;
     font-size: 20px;
     color: inherit;
@@ -164,6 +171,24 @@ button {
 .showcase div h4 {
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.showcase {
+    margin: auto;
+    margin-top: -20px;
+    padding-top: 3em;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background: none;
+    border: none;
+    font: inherit;
+    font-size: 1.125em;
+    color: #333333;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 video {
@@ -188,29 +213,22 @@ video {
     border-style: solid;
     border-width: 1px;
     border-radius: 30px;
-    margin-bottom: 30px;
-    padding: 10px;
-    padding-left: 1em;
-    padding-right: 1em;
+    margin: 20px 0 30px;
+    padding: 10px 16px 10px ;
     font: inherit;
     font-size: 20px;
     color: inherit;
     text-decoration: none;
 }
 
+
 footer {
     text-align: center;
-    margin-top: 1em;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin: 1em 30% 0;
     padding: 1em;
 }
 
 footer .navigation {
-    font-family: "Inter", sans-serif;
-    font-weight: 300;
-    color: #333333;
-    text-decoration: none;
     padding: 1em;
 }
 
@@ -235,9 +253,6 @@ footer .navigation a {
     }
 
     .about {
-        background-color: #FAFAFA;
-        width: 100%;
-        text-align: center;
         height: 1000px;
     }
 
@@ -247,7 +262,6 @@ footer .navigation a {
 
     .my-skills {
         margin-top: -600px;
-        text-align: center;
     }
 
     .projects {
@@ -285,9 +299,6 @@ footer .navigation a {
     }
 
     .about {
-        background-color: #FAFAFA;
-        width: 100%;
-        text-align: center;
         height: 900px;
     }
 
@@ -297,7 +308,6 @@ footer .navigation a {
 
     .my-skills {
         margin-top: -500px;
-        text-align: center;
     }
 
     .projects {
@@ -334,13 +344,6 @@ footer .navigation a {
         width: 35%;
         align-items: center;
     }
-    
-    .about {
-        background-color: #FAFAFA;
-        width: 100%;
-        text-align: center;
-        height: 850px;
-    }
 
     .about div {
         padding: 0 10% 0;
@@ -348,27 +351,14 @@ footer .navigation a {
 
     .my-skills {
         margin-top: -550px;
-        text-align: center;
     } 
 
     button {
-        background: none;
-        border: none;
         padding: 15px 30px 30px;
-        font: inherit;
-        font-size: 1.125em;
-        color: #333333;
-        cursor: pointer;
-        border-radius: 10px;
     } 
 
     .showcase {
-        margin: auto;
-        margin-top: -20px;
         width: 70%;
-        padding-top: 3em;
-        border-radius: 10px;
-        box-shadow: 6px 6px 10px 5px rgba(0, 0, 0, 0.1);
     }
 }
   
@@ -379,13 +369,6 @@ footer .navigation a {
         width: 30%;
         align-items: center;
     }
-    
-    .about {
-        background-color: #FAFAFA;
-        width: 100%;
-        text-align: center;
-        height: 850px;
-    }
 
     .about div {
         padding: 0 20% 0;
@@ -393,27 +376,14 @@ footer .navigation a {
 
     .my-skills {
         margin-top: -500px;
-        text-align: center;
     }
 
     button {
-        background: none;
-        border: none;
         padding: 15px 50px 30px;
-        font: inherit;
-        font-size: 1.125em;
-        color: #333333;
-        cursor: pointer;
-        border-radius: 10px;
     }
 
     .showcase {
-        margin: auto;
-        margin-top: -20px;
         width: 70%;
-        padding-top: 3em;
-        border-radius: 10px;
-        box-shadow: 6px 6px 10px 5px rgba(0, 0, 0, 0.1);
     }
 } 
   
@@ -424,13 +394,6 @@ footer .navigation a {
         width: 20%;
         align-items: center;
     }
-    
-    .about {
-        background-color: #FAFAFA;
-        width: 100%;
-        text-align: center;
-        height: 850px;
-    }
 
     .about div {
         padding: 0 30% 0;
@@ -438,27 +401,13 @@ footer .navigation a {
 
     .my-skills {
         margin-top: -500px;
-        text-align: center;
     }
 
     button {
-        background: none;
-        border: none;
         padding: 15px 60px 30px;
-        font: inherit;
-        font-size: 1.125em;
-        color: #333333;
-        cursor: pointer;
-        margin-top: 1em;
-        border-radius: 10px;
     }
 
     .showcase {
-        margin: auto;
-        margin-top: -20px;
         width: 55%;
-        padding-top: 3em;
-        border-radius: 10px;
-        box-shadow: 6px 6px 10px 5px rgba(0, 0, 0, 0.1);
     }
 }
