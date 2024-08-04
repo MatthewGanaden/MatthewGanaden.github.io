@@ -74,129 +74,6 @@ nav ul li a {
     text-align: center;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .face {      
-        width: 45%;
-        align-items: center;
-    }
-
-    .about {
-        background-color: #FAFAFA;
-        width: 100%;
-        text-align: center;
-        height: 1000px;
-    }
-
-    .about div {
-        padding: 0 5% 0;
-    }
-
-    .my-skills {
-        margin-top: -500px;
-        text-align: center;
-    }
-}
-  
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .face {      
-        width: 40%;
-        align-items: center;
-    }
-
-    .about {
-        background-color: #FAFAFA;
-        width: 100%;
-        text-align: center;
-        height: 900px;
-    }
-
-    .about div {
-        padding: 0 30% 0;
-    }
-
-    .my-skills {
-        margin-top: -350px;
-        text-align: center;
-    }
-}
-  
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .face {
-        margin: 5%;
-        width: 35%;
-        align-items: center;
-    }
-    
-    .about {
-        background-color: #FAFAFA;
-        width: 100%;
-        text-align: center;
-        height: 850px;
-    }
-
-    .about div {
-        padding: 0 10% 0;
-    }
-
-    .my-skills {
-        margin-top: -550px;
-        text-align: center;
-    } 
-}
-  
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .face {
-        margin: 5%;
-        width: 30%;
-        align-items: center;
-    }
-    
-    .about {
-        background-color: #FAFAFA;
-        width: 100%;
-        text-align: center;
-        height: 850px;
-    }
-
-    .about div {
-        padding: 0 30% 0;
-    }
-
-    .my-skills {
-        margin-top: -500px;
-        text-align: center;
-    }
-} 
-  
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .face {
-        margin: 5%;
-        width: 20%;
-        align-items: center;
-    }
-    
-    .about {
-        background-color: #FAFAFA;
-        width: 100%;
-        text-align: center;
-        height: 850px;
-    }
-
-    .about div {
-        padding: 0 30% 0;
-    }
-
-    .my-skills {
-        margin-top: -650px;
-        text-align: center;
-    }
-}
-
 .skills {
     display: flex;
     flex-wrap: wrap;
@@ -343,4 +220,207 @@ footer .navigation a {
     color: #333333;
     text-decoration: none;
     padding: 1em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .face {      
+        margin-top: 10%;
+        width: 45%;
+        align-items: center;
+    }
+
+    .about {
+        background-color: #FAFAFA;
+        width: 100%;
+        text-align: center;
+        height: 1000px;
+    }
+
+    .about div {
+        padding: 0 5% 0;
+    }
+
+    .my-skills {
+        margin-top: -600px;
+        text-align: center;
+    }
+}
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .face {      
+        width: 40%;
+        align-items: center;
+    }
+
+    .about {
+        background-color: #FAFAFA;
+        width: 100%;
+        text-align: center;
+        height: 900px;
+    }
+
+    .about div {
+        padding: 0 10% 0;
+    }
+
+    .my-skills {
+        margin-top: -500px;
+        text-align: center;
+    }
+
+    .showcase {
+        margin: auto;
+        margin-top: -20px;
+        width: 70%;
+        padding-top: 3em;
+        border-radius: 10px;
+        box-shadow: 6px 6px 10px 5px rgba(0, 0, 0, 0.1);
+    }
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .face {
+        margin: 5%;
+        width: 35%;
+        align-items: center;
+    }
+    
+    .about {
+        background-color: #FAFAFA;
+        width: 100%;
+        text-align: center;
+        height: 850px;
+    }
+
+    .about div {
+        padding: 0 10% 0;
+    }
+
+    .my-skills {
+        margin-top: -550px;
+        text-align: center;
+    } 
+
+    .showcase {
+        margin: auto;
+        margin-top: -20px;
+        width: 50%;
+        padding-top: 3em;
+        border-radius: 10px;
+        box-shadow: 6px 6px 10px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+        background: none;
+        border: none;
+        padding: 15px 40px 30px;
+        font: inherit;
+        font-size: 1.125em;
+        color: #333333;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .showcase {
+        margin: auto;
+        margin-top: -20px;
+        width: 80%;
+        padding-top: 3em;
+        border-radius: 10px;
+        box-shadow: 6px 6px 10px 5px rgba(0, 0, 0, 0.1);
+    }
+}
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .face {
+        margin: 5%;
+        width: 30%;
+        align-items: center;
+    }
+    
+    .about {
+        background-color: #FAFAFA;
+        width: 100%;
+        text-align: center;
+        height: 850px;
+    }
+
+    .about div {
+        padding: 0 20% 0;
+    }
+
+    .my-skills {
+        margin-top: -500px;
+        text-align: center;
+    }
+
+    button {
+        background: none;
+        border: none;
+        padding: 15px 50px 30px;
+        font: inherit;
+        font-size: 1.125em;
+        color: #333333;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .showcase {
+        margin: auto;
+        margin-top: -20px;
+        width: 70%;
+        padding-top: 3em;
+        border-radius: 10px;
+        box-shadow: 6px 6px 10px 5px rgba(0, 0, 0, 0.1);
+    }
+} 
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .face {
+        margin: 5%;
+        width: 20%;
+        align-items: center;
+    }
+    
+    .about {
+        background-color: #FAFAFA;
+        width: 100%;
+        text-align: center;
+        height: 850px;
+    }
+
+    .about div {
+        padding: 0 30% 0;
+    }
+
+    .my-skills {
+        margin-top: -500px;
+        text-align: center;
+    }
+
+    button {
+        background: none;
+        border: none;
+        padding: 15px 60px 30px;
+        font: inherit;
+        font-size: 1.125em;
+        color: #333333;
+        cursor: pointer;
+        margin-top: 1em;
+        border-radius: 10px;
+    }
+
+    .showcase {
+        margin: auto;
+        margin-top: -20px;
+        width: 55%;
+        padding-top: 3em;
+        border-radius: 10px;
+        box-shadow: 6px 6px 10px 5px rgba(0, 0, 0, 0.1);
+    }
 }
