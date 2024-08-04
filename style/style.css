@@ -66,6 +66,16 @@ nav ul li a {
     color: #333333;
     text-decoration: none;
     margin: 3em;
+    transition: all 0.2s ease;
+}
+
+nav ul li a:hover {
+    font-weight: 600;
+}
+
+nav ul li a:hover::after {
+    font-weight: 300;
+    transition: 0.2s;
 }
 
 .hero {
@@ -155,7 +165,7 @@ button {
     background-color: #fff;
 }
 
-.showcase a {
+.portfolio {
     display: inline-block;
     border-style: solid;
     border-width: 1px;
@@ -163,9 +173,14 @@ button {
     margin-bottom: 30px;
     padding: 10px 16px 10px ;
     font: inherit;
-    font-size: 20px;
+    font-size: 1.125em;
     color: inherit;
     text-decoration: none;
+}
+
+.portfolio:hover {
+    color:#FAFAFA;
+    background-color: #333333;
 }
 
 .showcase div h4 {
@@ -221,6 +236,11 @@ video {
     text-decoration: none;
 }
 
+.contact a:hover {
+    color:#FAFAFA;
+    background-color: #333333;
+}
+
 
 footer {
     text-align: center;
@@ -238,6 +258,11 @@ footer .navigation a {
     color: #333333;
     text-decoration: none;
     padding: 1em;
+    transition: all 0.2 ease;
+}
+
+footer .navigation a:hover {
+    text-decoration: underline;
 }
 
 .showcase_small_screen {
@@ -249,7 +274,6 @@ footer .navigation a {
     .face {      
         margin-top: 10%;
         width: 45%;
-        align-items: center;
     }
 
     .about {
@@ -295,7 +319,6 @@ footer .navigation a {
     .face {
         margin-top: 10%;
         width: 40%;
-        align-items: center;
     }
 
     .about {
@@ -342,7 +365,6 @@ footer .navigation a {
     .face {
         margin: 5%;
         width: 35%;
-        align-items: center;
     }
 
     .about div {
@@ -367,7 +389,6 @@ footer .navigation a {
     .face {
         margin: 5%;
         width: 30%;
-        align-items: center;
     }
 
     .about div {
@@ -392,7 +413,6 @@ footer .navigation a {
     .face {
         margin: 5%;
         width: 20%;
-        align-items: center;
     }
 
     .about div {
