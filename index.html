@@ -10,11 +10,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script defer src="script/scripts.js"></script> 
+    <script defer src="script/hamburger.js"></script>
+    <script defer src="script/animation.js"></script>
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
-            <nav>
+            <nav class = "nav-for-desk">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About me</a></li>
@@ -22,21 +26,40 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+
+            <div class="off-screen-menu">
+                <ul>
+                    <li>Home</li>
+                    <li>About me</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <nav class = "hamburger">
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
         </header>
 
-        <div class="home">
+        <div id="home">
             <video autoplay muted loop class="background">
                 <source src="style/vid/HomeBG.mp4" type="video/mp4">
             </video>
 
-            <img src="style/vid/Face.gif" class="foreground">
+            <div class="foreground">
+                <img src="style/vid/Face.gif" class="face">
+            </div>
 
             <h1>Web Developer</h1>
             <h3>I like to design and create simple websites</h3>
         </div>
              
         <main>
-             <section class="about">
+             <section id="about" class="hidden">
                 <h1>About Me</h1>
                 <h2>I am a developer willing to challenge myself and to put my skills into use to provide satisfaction to clients. I always do my best to improve not only my skills but also myself.</h2>
                 <div class="cards">
@@ -157,7 +180,7 @@
                 </div>
             </section>
 
-            <section class="projects">
+            <section id="projects" class="hidden">
                 <h1>Projects</h1>
                 <h2>These are some of the projects I have been working on.</h2>
 
@@ -183,7 +206,7 @@
                 </div>
             </section>
 
-            <section class="Awards">
+            <section id="Awards" class="hidden">
                 <h1>Awards</h1>
                 <h2>Here are some of the awards I've received.</h2>
 
@@ -243,7 +266,7 @@
                 </div>
             </section>
 
-            <section class="Certificates">
+            <section id="Certificates" class="hidden">
                 <h1>Certificates</h1>
                 <h2>Here are some of the certificates I've received.</h2>
 
@@ -314,7 +337,5 @@
             </div>
         </footer>
     </div>   
-
-    <script src="script/scripts.js"></script> 
 </body>
 </html>
