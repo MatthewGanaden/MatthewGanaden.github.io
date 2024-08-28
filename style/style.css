@@ -523,11 +523,11 @@ footer {
     }
 
     .face {
-        width: 1000px;
+        width: 50%;
     }
 
     .foreground {
-        margin-top: -10px;
+        margin-top: 1.5%;
     }
 
     .project-card {
