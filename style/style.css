@@ -297,6 +297,41 @@ section .cards {
     border-radius: 15px;
 }
 
+/*text animation for buttons*/
+a {
+  color: #353148;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.25s;
+    transition-timing-function: ease-in-out;
+  }
+  
+a span:after {
+    content: '\27F6';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.25s;
+    transition-timing-function: ease-in-out;
+  }
+  
+a:hover span {
+    padding-right: 25px;
+    text-decoration: underline;
+  }
+  
+a:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
 .small-card {
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
