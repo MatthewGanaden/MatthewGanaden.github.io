@@ -375,6 +375,7 @@ a:hover span:after {
 .small-card-image {
     max-width: 380px;
     border-radius: 15px;
+    border: 1px solid #353148;
 }
 
 .small-card-link {
